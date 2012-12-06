@@ -1,0 +1,48 @@
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.exe
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.pdb
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.csprojResolveAssemblyReference.cache
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.exe
+c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.pdb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\cursor.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\mousecursor.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\red.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bloke.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\test.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\undo.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\phone.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\circle.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\chestbar.xnb
+c:\Users\Dan\Documents\Visual Studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bar.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\cursor.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\mousecursor.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\red.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bloke.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\undo.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\phone.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\circle.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\chestbar.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bar.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\test.xnb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.exe
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.pdb
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.exe
+C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.pdb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\cursor.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\mousecursor.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\red.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bloke.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\undo.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\phone.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\circle.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\chestbar.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bar.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\test.xnb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.exe
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\InteractionDesign_v1.pdb
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\ResolveAssemblyReference.cache
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.exe
+H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.pdb
