@@ -11,7 +11,7 @@ namespace InteractionDesign_v1
 {
     class ClickableButton : ClickableObject
     {
-        String buttonName;
+        //String buttonName;
         int buttonType;
 
         public ClickableButton(ContentManager content, String texture, Vector2 position, Player player, string buttonName, int buttonType)
@@ -68,6 +68,11 @@ namespace InteractionDesign_v1
                     
             }
 
+            if (this.buttonName == player.info[0].ToString())
+            {
+                player.info.RemoveAt(0);
+            }
+
         }
 
         public override void onHeldLeftClick()
@@ -93,9 +98,11 @@ namespace InteractionDesign_v1
                 case (int)ClickableObject.ButtonType.SIMPLE:
                     if (this.buttonName.ToLower() == "chest")
                     {
+                        System.Threading.Thread.Sleep(150);
                         base.player.isChestPressed = false;
-                        //record chest pressess and xpos of moving bar
-                        // reset xpos of moving bar
+                        if ((int)player.barpos.X > 340 && player.barpos.X < 400) player.xpos.Add("GOOD");
+                        //reset bar position
+                        player.barpos = new Vector2(200, 318);
                     }
                     break;
             }

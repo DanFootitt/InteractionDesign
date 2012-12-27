@@ -14,13 +14,22 @@ namespace InteractionDesign_v1
         public List<String> actions;
         public bool isChestPressed, isShowingInfo;
         public List<String> info;
+        public List<String> xpos;
+        bool isMovingLeft = true;
+        public Vector2 barpos;
 
         public Player(){
             actions = new List<String>();
             isChestPressed = false;
             isShowingInfo = false;
             info = new List<string>();
-            info.Add("Ring an Ambulance!");
+            xpos = new List<string>();
+            //info.Add("Phone");
+            info.Add("Shoulder");
+            info.Add("Mouth");
+            info.Add("Nose");
+            info.Add("Chest");
+            barpos = new Vector2(200, 318);
         }
 
         //overide update to draw chest thing and record information
@@ -29,7 +38,28 @@ namespace InteractionDesign_v1
             
             if (this.isChestPressed)
             {
-                //update the moving bar
+
+                if (isMovingLeft)
+                {
+                    barpos.X += 6.0f;
+                }
+
+                if (!isMovingLeft)
+                {
+                    barpos.X -= 6.0f;
+                }
+
+                if (barpos.X <= 200)
+                {
+                    isMovingLeft = true;
+                    Console.Write(barpos.X);
+                }
+
+                if (barpos.X >= 200 + 356)
+                {
+                    isMovingLeft = false;
+                    Console.Write(barpos.X);
+                }
                 
             }
         

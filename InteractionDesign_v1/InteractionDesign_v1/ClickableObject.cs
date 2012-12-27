@@ -6,9 +6,13 @@ using Microsoft.Xna.Framework.Input;
 using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
+using Microsoft.Xna.Framework.Media;
+using System.Diagnostics;
+using System.Threading;
 
 namespace InteractionDesign_v1
 {
+    
     public enum objState
     {
         NORMAL,
@@ -21,6 +25,8 @@ namespace InteractionDesign_v1
     public class ClickableObject
     {
 
+
+
         public enum ButtonType
         {
             SIMPLE,
@@ -30,6 +36,7 @@ namespace InteractionDesign_v1
         }
 
         Texture2D texture;
+        Texture2D test;
         public Player player;
 
         public Rectangle rectangle
@@ -56,14 +63,24 @@ namespace InteractionDesign_v1
             protected set;
         }
 
+        public String buttonName
+        {
+            get;
+            protected set;
+        }
+
+
+
         // Constructors
 
         public ClickableObject(ContentManager content, String text, Vector2 pos, Player player, String buttonName, int buttonType) 
         {
             leftState = objState.NORMAL;
             texture = content.Load<Texture2D>(text);
+            test = content.Load<Texture2D>("Images\\red");
             this.position = pos;
             this.player = player;
+            this.buttonName = buttonName;
             rectangle = new Rectangle((int)pos.X, (int)pos.Y, texture.Width, texture.Height);
         }
 
@@ -132,7 +149,6 @@ namespace InteractionDesign_v1
                 }
             }
 
-
         }
 
 
@@ -141,7 +157,13 @@ namespace InteractionDesign_v1
         public void Draw(SpriteBatch spriteBatch) 
         {
             spriteBatch.Begin();
-            spriteBatch.Draw(texture, position, Color.White);
+            if (this.buttonName == player.info[0].ToString())
+            {
+                spriteBatch.Draw(test, position, Color.White);
+            }
+            else {
+                spriteBatch.Draw(texture, position, Color.White);
+            }
             spriteBatch.End();
         }
 

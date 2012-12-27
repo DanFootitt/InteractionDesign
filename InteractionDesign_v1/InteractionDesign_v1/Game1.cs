@@ -23,7 +23,7 @@ namespace InteractionDesign_v1
         Player player;
         Mouse mouse;
         Texture2D man;
-        Texture2D chestbar;
+        public Texture2D chestbar;
         Texture2D bar;
         Vector2 barpos;
         ClickableButton mouth;
@@ -36,7 +36,7 @@ namespace InteractionDesign_v1
         SpriteFont test;
         Stopwatch stopwatch;
         String elapsedTime;
-        bool isMovingLeft = true;
+        
 
         public Game1()
         {
@@ -62,7 +62,7 @@ namespace InteractionDesign_v1
             chest = new ClickableButton(Content, "Images\\circle", new Vector2(400, 200), player, "Chest", (int)ClickableObject.ButtonType.SIMPLE);
             nose = new ClickableButton(Content, "Images\\circle", new Vector2(150, 200), player, "Nose", (int)ClickableObject.ButtonType.SIMPLE);
             undo = new ClickableButton(Content, "Images\\undo", new Vector2(680, 380), player, "Undo", (int)ClickableObject.ButtonType.UNDO);
-            mouth = new ClickableButton(Content, "Images\\circle", new Vector2(200, 200), player, "Mouth", (int)ClickableObject.ButtonType.MOVEABLE);
+            mouth = new ClickableButton(Content, "Images\\circle", new Vector2(200, 200), player, "Mouth", (int)ClickableObject.ButtonType.SIMPLE);
             phone = new ClickableButton(Content, "Images\\phone", new Vector2(10, 350), player, "Phone", (int)ClickableObject.ButtonType.SIMPLE);
             test = Content.Load<SpriteFont>("test");
             stopwatch = new Stopwatch();
@@ -123,33 +123,7 @@ namespace InteractionDesign_v1
             undo.Update(gameTime, mouse);
             phone.Update(gameTime, mouse);
             player.update(gameTime);
-            
-            
-            if (player.isChestPressed)
-            {
-                KeyboardState kbstate = Keyboard.GetState();
-
-                if (isMovingLeft)
-                {
-                    barpos.X += 6.0f;
-                }
-                
-                if (!isMovingLeft){
-                    barpos.X -= 6.0f;
-                }
-
-                if (barpos.X <= 200){
-                    isMovingLeft = true;
-                    Console.Write(barpos.X);
-                }
-                
-                if (barpos.X >= 200 + chestbar.Width){
-                    isMovingLeft = false;
-                    Console.Write(barpos.X);
-                }
-
-            }
-
+           
 
             base.Update(gameTime);
         }
@@ -185,7 +159,7 @@ namespace InteractionDesign_v1
             if (player.isChestPressed) {
                 spriteBatch.Begin();
                 spriteBatch.Draw(chestbar, new Rectangle(200, 320, chestbar.Width, chestbar.Height), Color.White);
-                spriteBatch.Draw(bar, new Rectangle((int)barpos.X, (int)barpos.Y, bar.Width, bar.Height), Color.White);
+                spriteBatch.Draw(bar, new Rectangle((int)player.barpos.X, (int)player.barpos.Y, bar.Width, bar.Height), Color.White);
                 spriteBatch.End();
             }
 

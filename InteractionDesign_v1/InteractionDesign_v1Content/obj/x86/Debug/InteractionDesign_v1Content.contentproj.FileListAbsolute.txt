@@ -1,3 +1,4 @@
 c:\users\dan\documents\visual studio 2010\Projects\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1Content\obj\x86\Debug\InteractionDesign_v1Content.contentprojResolveAssemblyReference.cache
 C:\Users\n0277861\Downloads\InteractionDesign_v1.1\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1Content\obj\x86\Debug\ResolveAssemblyReference.cache
 H:\InteractionDesign_v1\InteractionDesign_v1\InteractionDesign_v1Content\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1Content\obj\x86\Debug\InteractionDesign_v1Content.contentprojResolveAssemblyReference.cache
