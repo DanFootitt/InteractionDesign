@@ -7,9 +7,9 @@ using Microsoft.Xna.Framework;
 using Microsoft.Xna.Framework.Graphics;
 using Microsoft.Xna.Framework.Content;
 
-namespace InteractionDesign_v1
+namespace GameStateManagement
 {
-    class ClickableButton : ClickableObject
+    public class ClickableButton : ClickableObject
     {
         //String buttonName;
         int buttonType;

@@ -62,3 +62,5 @@ C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\Interaction
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\Microsoft.Xna.Framework.RuntimeProfile.txt
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.exe
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.pdb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\blank.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\background.xnb

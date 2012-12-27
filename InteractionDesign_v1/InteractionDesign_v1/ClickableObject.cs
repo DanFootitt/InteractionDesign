@@ -10,7 +10,7 @@ using Microsoft.Xna.Framework.Media;
 using System.Diagnostics;
 using System.Threading;
 
-namespace InteractionDesign_v1
+namespace GameStateManagement
 {
     
     public enum objState

@@ -8,3 +8,5 @@ Content\Images\circle.xnb
 Content\Images\chestbar.xnb
 Content\Images\bar.xnb
 Content\test.xnb
+Content\Images\blank.xnb
+Content\Images\background.xnb
