@@ -10,3 +10,5 @@ Content\Images\bar.xnb
 Content\test.xnb
 Content\Images\blank.xnb
 Content\Images\background.xnb
+Content\Images\gradient.xnb
+Content\Images\BigPhone.xnb

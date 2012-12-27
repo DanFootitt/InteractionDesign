@@ -35,7 +35,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\bloke.xnb</Output>
-      <Time>2012-12-26T11:33:36.9324916+00:00</Time>
+      <Time>2012-12-27T14:35:46.9692114+00:00</Time>
     </Item>
     <Item>
       <Source>Images\undo.png</Source>
@@ -108,6 +108,24 @@
       <Options>None</Options>
       <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\background.xnb</Output>
       <Time>2012-12-27T14:29:10.3780054+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\gradient.png</Source>
+      <Name>Images\gradient</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\gradient.xnb</Output>
+      <Time>2012-12-27T15:04:49.9263774+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\BigPhone.png</Source>
+      <Name>Images\BigPhone</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\BigPhone.xnb</Output>
+      <Time>2012-12-27T15:36:42.9475504+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

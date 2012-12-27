@@ -62,6 +62,7 @@ namespace GameStateManagement
                     if (buttonName.ToLower() == "phone")
                     {
                         base.player.isShowingInfo = true;
+                        base.player.loadPhone = true;
                     }
 
                     break;

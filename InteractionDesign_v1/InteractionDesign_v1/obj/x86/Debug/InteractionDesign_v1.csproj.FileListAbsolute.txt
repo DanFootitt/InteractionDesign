@@ -64,3 +64,5 @@ C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\Interaction
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\obj\x86\Debug\InteractionDesign_v1.pdb
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\blank.xnb
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\background.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\gradient.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\BigPhone.xnb

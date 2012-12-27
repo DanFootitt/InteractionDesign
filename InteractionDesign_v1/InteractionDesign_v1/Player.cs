@@ -16,6 +16,7 @@ namespace GameStateManagement
         public List<String> info;
         public List<String> xpos;
         bool isMovingLeft = true;
+        public bool loadPhone = false;
         public Vector2 barpos;
 
         public Player(){
