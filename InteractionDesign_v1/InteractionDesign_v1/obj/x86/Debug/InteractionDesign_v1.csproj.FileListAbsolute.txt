@@ -66,3 +66,7 @@ C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\Interaction
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\background.xnb
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\gradient.xnb
 C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\BigPhone.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone-small.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\numberButton.xnb
+C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\backbutton.xnb

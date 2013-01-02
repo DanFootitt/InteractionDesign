@@ -12,3 +12,7 @@ Content\Images\blank.xnb
 Content\Images\background.xnb
 Content\Images\gradient.xnb
 Content\Images\BigPhone.xnb
+Content\Images\iphone.xnb
+Content\Images\iphone-small.xnb
+Content\Images\numberButton.xnb
+Content\Images\backbutton.xnb

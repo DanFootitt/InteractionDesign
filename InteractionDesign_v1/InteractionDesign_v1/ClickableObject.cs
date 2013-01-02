@@ -84,6 +84,17 @@ namespace GameStateManagement
             rectangle = new Rectangle((int)pos.X, (int)pos.Y, texture.Width, texture.Height);
         }
 
+
+        public ClickableObject(ContentManager content, String text, Vector2 pos, String buttonName)
+        {
+            leftState = objState.NORMAL;
+            texture = content.Load<Texture2D>(text);
+            test = content.Load<Texture2D>("Images\\red");
+            this.position = pos;
+            this.buttonName = buttonName;
+            rectangle = new Rectangle((int)pos.X, (int)pos.Y, texture.Width, texture.Height);
+        }
+
         //virtual functions
 
         public virtual void onLeftClick() { }
@@ -100,10 +111,10 @@ namespace GameStateManagement
         {
             bool intersect = mouse.rectangle.Intersects(this.rectangle);
 
-            if (mouse.newLeftClick && player.isShowingInfo)
+            /*if (mouse.newLeftClick && player.isShowingInfo)
             {
                 player.isShowingInfo = false;
-            }
+            }*/
 
             if (intersect || (activeMouse != null && leftState != objState.NORMAL))
             {
@@ -156,14 +167,13 @@ namespace GameStateManagement
 
         public void Draw(SpriteBatch spriteBatch) 
         {
+            
+            //sort out highliting what the player should do next!
+            
             spriteBatch.Begin();
-            if (this.buttonName == player.info[0].ToString())
-            {
-                spriteBatch.Draw(test, position, Color.White);
-            }
-            else {
-                spriteBatch.Draw(texture, position, Color.White);
-            }
+                      
+            spriteBatch.Draw(texture, position, Color.White);
+           
             spriteBatch.End();
         }
 
