@@ -56,15 +56,6 @@
       <Time>2012-12-26T11:33:36.9394925+00:00</Time>
     </Item>
     <Item>
-      <Source>Images\circle.png</Source>
-      <Name>Images\circle</Name>
-      <Importer>TextureImporter</Importer>
-      <Processor>TextureProcessor</Processor>
-      <Options>None</Options>
-      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\circle.xnb</Output>
-      <Time>2012-12-26T11:33:36.9354924+00:00</Time>
-    </Item>
-    <Item>
       <Source>Images\chestbar.png</Source>
       <Name>Images\chestbar</Name>
       <Importer>TextureImporter</Importer>
@@ -107,7 +98,7 @@
       <Processor>TextureProcessor</Processor>
       <Options>None</Options>
       <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\background.xnb</Output>
-      <Time>2012-12-27T14:29:10.3780054+00:00</Time>
+      <Time>2013-01-09T14:31:21.8755567+00:00</Time>
     </Item>
     <Item>
       <Source>Images\gradient.png</Source>
@@ -162,6 +153,168 @@
       <Options>None</Options>
       <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\backbutton.xnb</Output>
       <Time>2012-12-31T12:57:43.3800849+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\man.png</Source>
+      <Name>Images\man</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\man.xnb</Output>
+      <Time>2013-01-09T12:22:33.2514817+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\white.jpg</Source>
+      <Name>Images\white</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\white.xnb</Output>
+      <Time>2013-01-09T12:27:00.2561695+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\shoulder.png</Source>
+      <Name>Images\shoulder</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\shoulder.xnb</Output>
+      <Time>2013-01-09T12:34:02.0191104+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Circle_normal.png</Source>
+      <Name>Images\Circle_normal</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\Circle_normal.xnb</Output>
+      <Time>2013-01-09T12:48:16.4320627+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\circle_small.png</Source>
+      <Name>Images\circle_small</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\circle_small.xnb</Output>
+      <Time>2013-01-09T12:51:34.1037964+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_small_glow.png</Source>
+      <Name>Images\iphone_small_glow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_small_glow.xnb</Output>
+      <Time>2013-01-09T13:10:59.498415+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\Circle_normal_glow.png</Source>
+      <Name>Images\Circle_normal_glow</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\Circle_normal_glow.xnb</Output>
+      <Time>2013-01-09T13:13:10.695589+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_button.png</Source>
+      <Name>Images\iphone_button</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_button.xnb</Output>
+      <Time>2013-01-10T12:52:16.817352+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_button_back.png</Source>
+      <Name>Images\iphone_button_back</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_button_back.xnb</Output>
+      <Time>2013-01-10T12:53:49.5614487+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_button_call.png</Source>
+      <Name>Images\iphone_button_call</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_button_call.xnb</Output>
+      <Time>2013-01-10T12:52:16.8203504+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_button_contact.png</Source>
+      <Name>Images\iphone_button_contact</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_button_contact.xnb</Output>
+      <Time>2013-01-10T12:52:16.8213502+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\iphone_numberscreen.png</Source>
+      <Name>Images\iphone_numberscreen</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\iphone_numberscreen.xnb</Output>
+      <Time>2013-01-10T12:52:16.8233507+00:00</Time>
+    </Item>
+    <Item>
+      <Source>phone.spritefont</Source>
+      <Name>phone</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\phone.xnb</Output>
+      <Time>2013-01-10T13:38:55.3590945+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\doctor.png</Source>
+      <Name>Images\doctor</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\doctor.xnb</Output>
+      <Time>2013-01-10T17:19:17.2817939+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\SpeechBubble.png</Source>
+      <Name>Images\SpeechBubble</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\SpeechBubble.xnb</Output>
+      <Time>2013-01-10T17:29:26.7057848+00:00</Time>
+    </Item>
+    <Item>
+      <Source>info.spritefont</Source>
+      <Name>info</Name>
+      <Importer>FontDescriptionImporter</Importer>
+      <Processor>FontDescriptionProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\info.xnb</Output>
+      <Time>2013-01-10T17:24:55.8108214+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\pauseButton.png</Source>
+      <Name>Images\pauseButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\pauseButton.xnb</Output>
+      <Time>2013-01-10T17:57:31.8821694+00:00</Time>
+    </Item>
+    <Item>
+      <Source>Images\undoButton.png</Source>
+      <Name>Images\undoButton</Name>
+      <Importer>TextureImporter</Importer>
+      <Processor>TextureProcessor</Processor>
+      <Options>None</Options>
+      <Output>C:\Users\Dan\Documents\GitHub\InteractionDesign\InteractionDesign_v1\InteractionDesign_v1\bin\x86\Debug\Content\Images\undoButton.xnb</Output>
+      <Time>2013-01-10T17:57:32.5347858+00:00</Time>
     </Item>
     <BuildSuccessful>true</BuildSuccessful>
     <Settings>

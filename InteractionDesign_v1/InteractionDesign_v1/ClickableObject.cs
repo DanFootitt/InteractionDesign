@@ -32,11 +32,12 @@ namespace GameStateManagement
             SIMPLE,
             UNDO,
             MOVEABLE,
-            MULTIPLE
+            MULTIPLE,
+            PAUSE
         }
 
         Texture2D texture;
-        Texture2D test;
+        Texture2D glowTexture;
         public Player player;
 
         public Rectangle rectangle
@@ -73,11 +74,11 @@ namespace GameStateManagement
 
         // Constructors
 
-        public ClickableObject(ContentManager content, String text, Vector2 pos, Player player, String buttonName, int buttonType) 
+        public ClickableObject(ContentManager content, String text, String glowText, Vector2 pos, Player player, String buttonName, int buttonType) 
         {
             leftState = objState.NORMAL;
             texture = content.Load<Texture2D>(text);
-            test = content.Load<Texture2D>("Images\\red");
+            glowTexture = content.Load<Texture2D>(glowText);
             this.position = pos;
             this.player = player;
             this.buttonName = buttonName;
@@ -89,7 +90,6 @@ namespace GameStateManagement
         {
             leftState = objState.NORMAL;
             texture = content.Load<Texture2D>(text);
-            test = content.Load<Texture2D>("Images\\red");
             this.position = pos;
             this.buttonName = buttonName;
             rectangle = new Rectangle((int)pos.X, (int)pos.Y, texture.Width, texture.Height);
@@ -110,11 +110,6 @@ namespace GameStateManagement
         public void Update(GameTime gameTime, Mouse mouse) 
         {
             bool intersect = mouse.rectangle.Intersects(this.rectangle);
-
-            /*if (mouse.newLeftClick && player.isShowingInfo)
-            {
-                player.isShowingInfo = false;
-            }*/
 
             if (intersect || (activeMouse != null && leftState != objState.NORMAL))
             {
@@ -167,13 +162,26 @@ namespace GameStateManagement
 
         public void Draw(SpriteBatch spriteBatch) 
         {
-            
-            //sort out highliting what the player should do next!
-            
+
             spriteBatch.Begin();
-                      
-            spriteBatch.Draw(texture, position, Color.White);
-           
+
+            if (this.GetType() == typeof(PhoneButton) ){
+                spriteBatch.Draw(texture, position, Color.White);
+            } 
+            else {
+                if (player.currentActionIndex < player.actionList.Count)
+                {
+                    if (player.actionList.ElementAt(player.currentActionIndex).Equals(buttonName.ToLower()))
+                    {
+                        spriteBatch.Draw(glowTexture, position, Color.White);
+                    }
+                    else
+                    {
+                        spriteBatch.Draw(texture, position, Color.White);
+                    }
+                }
+            }
+
             spriteBatch.End();
         }
 

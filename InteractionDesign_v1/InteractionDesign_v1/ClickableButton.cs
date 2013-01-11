@@ -14,8 +14,8 @@ namespace GameStateManagement
         //String buttonName;
         int buttonType;
 
-        public ClickableButton(ContentManager content, String texture, Vector2 position, Player player, string buttonName, int buttonType)
-            : base(content, texture, position, player, buttonName, buttonType)
+        public ClickableButton(ContentManager content, String texture, String glowTexture, Vector2 position, Player player, string buttonName, int buttonType)
+            : base(content, texture, glowTexture, position, player, buttonName, buttonType)
         {
             this.buttonName = buttonName;
             this.buttonType = buttonType;
@@ -39,27 +39,32 @@ namespace GameStateManagement
 
                 case (int)ClickableObject.ButtonType.MOVEABLE :
 
-                    base.player.actions.Add(this.buttonName);
                     break;
 
                 case (int)ClickableObject.ButtonType.UNDO :
 
-                    if (base.player.actions.Count > 0)
-                    {
-                        if (base.player.actions[base.player.actions.Count - 1] == "Mouth")
-                        {
-                            //move sqaure back to starting position
-                        }
+                    if (player.currentActionIndex > 0)player.currentActionIndex--;
 
-                        base.player.actions.RemoveAt(base.player.actions.Count - 1);
-                    }
+                    break;
+
+                case (int)ClickableObject.ButtonType.PAUSE:
+
+                    //set pause bool to true
 
                     break;
 
                 case (int)ClickableObject.ButtonType.SIMPLE:
 
-                    base.player.actions.Add(this.buttonName);
+                    if (player.actionList.ElementAt(player.currentActionIndex).Equals(buttonName.ToLower()))
+                    {
 
+                        if (!buttonName.ToLower().Contains("chest") && !buttonName.ToLower().Contains("phone"))
+                        {
+                            player.currentActionIndex++;
+                            player.playerScore += 100;
+                        }
+                    }
+                    
                     if (buttonName.ToLower() == "phone")
                     {
                         base.player.isShowingInfo = true;
@@ -70,10 +75,6 @@ namespace GameStateManagement
                     
             }
 
-            if (this.buttonName == player.info[0].ToString())
-            {
-                player.info.RemoveAt(0);
-            }
 
         }
 
@@ -103,8 +104,9 @@ namespace GameStateManagement
                         System.Threading.Thread.Sleep(150);
                         base.player.isChestPressed = false;
                         if ((int)player.barpos.X > 340 && player.barpos.X < 400) player.xpos.Add("GOOD");
-                        //reset bar position
                         player.barpos = new Vector2(200, 318);
+                        player.currentActionIndex++;
+                        player.playerScore += 100;
                     }
                     break;
             }
