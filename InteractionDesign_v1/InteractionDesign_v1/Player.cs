@@ -25,15 +25,21 @@ namespace GameStateManagement
         public int playerScore;
         public TimeSpan timeTaken;
         public bool isGameCompleted;
+        public bool welcome;
+        public bool isHardMode;
+        public bool modeSelect;
 
 
         public Player(){
             playerScore = 0;
             isChestPressed = false;
             isShowingInfo = true;
+            welcome = false;
             xpos = new List<string>();
             currentActionIndex = 0;
             isGameCompleted = false;
+            modeSelect = true;
+            isHardMode = false;
             
             actionList = new List<string>();
             actionList.Add("phone");

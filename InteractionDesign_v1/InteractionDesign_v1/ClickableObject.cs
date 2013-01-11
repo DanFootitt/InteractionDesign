@@ -171,7 +171,7 @@ namespace GameStateManagement
             else {
                 if (player.currentActionIndex < player.actionList.Count)
                 {
-                    if (player.actionList.ElementAt(player.currentActionIndex).Equals(buttonName.ToLower()))
+                    if (player.actionList.ElementAt(player.currentActionIndex).Equals(buttonName.ToLower()) && !player.isHardMode)
                     {
                         spriteBatch.Draw(glowTexture, position, Color.White);
                     }
